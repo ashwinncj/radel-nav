@@ -118,6 +118,7 @@
             var transitionDelay = 0.2;
             //When menu is closed
             $this.find('.menu-items ul li').each(function () {
+                $this.find('.radel-menu-btn img').attr('src','assets/img/icons8-menu-500.png');
                 $this.find('.radel-menu-close-control').css('width', '0');
                 $this.find('.radel-menu-close-control').css('height', '0');
                 itemsCount++;
@@ -133,6 +134,7 @@
             //Activating the marker
             $this.find('.menu-items').toggleClass('activated');
             $this.find('.activated ul li').each(function () {
+                $this.find('.radel-menu-btn img').attr('src','assets/img/icons8-delete-100.png');
                 $this.find('.radel-menu-close-control').css('width', '100vw');
                 $this.find('.radel-menu-close-control').css('height', '100vh');
                 transitionDelay = transitionDelay + 0.02;
