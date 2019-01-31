@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="assets/css/expand-right.css">
-        <script src="assets/js/expand-right.js"></script>
+        <link rel="stylesheet" href="assets/css/expand.css">
+        <script src="assets/js/expand.js"></script>
     </head>
     <body>
         <div class="radelmenu">
@@ -20,6 +20,9 @@
                     <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-e-learning-100.png"></span><span class="menu-title">Resources</span></a></li>
                     <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-download-from-cloud-100.png"></span><span class="menu-title">Downloads</span></a></li>
                     <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-phone-100.png"></span><span class="menu-title">Contact</span></a></li>
+                    <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-e-learning-100.png"></span><span class="menu-title">Resources</span></a></li>
+                    <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-download-from-cloud-100.png"></span><span class="menu-title">Downloads</span></a></li>
+                    <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-company-filled-100.png"></span><span class="menu-title">About</span></a></li>
                     <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-e-learning-100.png"></span><span class="menu-title">Resources</span></a></li>
                     <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-download-from-cloud-100.png"></span><span class="menu-title">Downloads</span></a></li>
                     <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-phone-100.png"></span><span class="menu-title">Contact</span></a></li>

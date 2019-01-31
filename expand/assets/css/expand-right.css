@@ -13,8 +13,8 @@
     border-radius: 0 0 50px 50px;
     z-index: 4;
     position: relative;
-    top: -25px;
-    padding-top: 25px;
+    top: -20px;
+    padding-top: 10px;
 }
 .menu-items ul{
     width: 161px;
@@ -24,6 +24,7 @@
     padding: 0;
     position: relative;
     left: -114px;
+    padding-top: 12px;
 }
 .menu-items li{
     transition: all 0.2s;

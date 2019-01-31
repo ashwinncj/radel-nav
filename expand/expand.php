@@ -66,7 +66,7 @@
             }
             .menu-link-img{
                 position: absolute;
-                left: -24px;
+                left: -28px;
                 top: 5px;
             }
             .menu-title{

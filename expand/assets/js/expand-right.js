@@ -12,9 +12,9 @@ $(document).ready(function () {
             itemsCount++;
             transitionDelay = transitionDelay - 0.02;
             $(this).css('transition-delay', transitionDelay + 's');
-            menuHeight = menuHeight + 40;
+            menuHeight = menuHeight + 45;
         });
-        menuHeight = menuHeight + 30;
+        menuHeight = menuHeight + 5;
         //When menu is opened
         transitionDelay = 0.05;
         $this.find('.menu-items').css('transition-delay', '0s');
