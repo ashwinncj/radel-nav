@@ -20,6 +20,9 @@
                     <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-e-learning-100.png"></span><span class="menu-title">Resources</span></a></li>
                     <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-download-from-cloud-100.png"></span><span class="menu-title">Downloads</span></a></li>
                     <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-phone-100.png"></span><span class="menu-title">Contact</span></a></li>
+                    <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-e-learning-100.png"></span><span class="menu-title">Resources</span></a></li>
+                    <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-download-from-cloud-100.png"></span><span class="menu-title">Downloads</span></a></li>
+                    <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-phone-100.png"></span><span class="menu-title">Contact</span></a></li>
                 </ul>
             </div>
         </div>
