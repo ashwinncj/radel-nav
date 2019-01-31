@@ -13,6 +13,7 @@
                 position: fixed;
                 top: 20px;
                 right: 20px;
+                font-size: 14px;
             }
             .menu-items{
                 transition: all 0.3s;
@@ -25,13 +26,13 @@
                 padding-top: 25px;
             }
             .menu-items ul{
-                width: 215px;
+                width: 161px;
                 overflow: hidden;
                 list-style: none;
                 margin: 0;
                 padding: 0;
                 position: relative;
-                left: -165px;
+                left: -114px;
             }
             .menu-items li{
                 transition: all 0.2s;
@@ -68,7 +69,7 @@
             }
             .menu-link-img{
                 position: absolute;
-                left: 213px;
+                left: 161px;
                 top: 5px;
             }
             .menu-title{
@@ -146,11 +147,11 @@
             $this.find('.activated li').css('left', '-35px');
             $this.find('.activated').css('height', menuHeight + 'px');
         };
-        $('#main-nav .radel-menu-btn').click(function () {
-            $('#main-nav').radelmenu();
+        $('.radel-menu-btn').click(function () {
+            $('.radelmenu').radelmenu();
         });
-        $('#main-nav .radel-menu-close-control').click(function () {
-            $('#main-nav').radelmenu();
+        $('.radel-menu-close-control').click(function () {
+            $('.radelmenu').radelmenu();
         });
     </script>
 </html>

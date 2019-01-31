@@ -1,0 +1,86 @@
+.radelmenu{
+    font-family: 'Montserrat', sans-serif;
+    width: 48px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 14px;
+}
+.menu-items{
+    transition: all 0.3s;
+    background-color: yellow;
+    height: 0;
+    border-radius: 0 0 50px 50px;
+    z-index: 4;
+    position: relative;
+    top: -25px;
+    padding-top: 25px;
+}
+.menu-items ul{
+    width: 150px;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-items li{
+    transition: all 0.2s;
+    left: -200px;
+    height: 25px;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    color: black;
+}
+.menu-items li a{
+    color: black;
+}
+.menu-items li a:hover{
+    transition: all 0s;
+    color: mediumturquoise;
+    left: 50px;
+}
+.radel-menu-btn{
+    position: relative;
+    cursor: pointer;   
+    font-size: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    padding: 12px;
+    border-radius: 50%;
+    z-index: 5;
+}
+.nav-img{
+    width: 25px;
+}
+.menu-link-img{
+    position: absolute;
+    left: -24px;
+    top: 5px;
+}
+.menu-title{
+    position: relative;
+    left: 5px;
+    transition: all 0.2s;
+}
+.menu-title:hover{
+    position: relative;
+    left: 10px;
+}
+.menu-link-img:hover ~ .menu-title{
+    position: relative;
+    left: 10px;
+}
+.radel-menu-close-control{
+    width: 0;
+    height: 0;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+}            
+.radelmenu a{
+    text-decoration: none;
+}

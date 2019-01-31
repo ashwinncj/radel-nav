@@ -13,6 +13,7 @@
                 position: fixed;
                 top: 20px;
                 left: 20px;
+                font-size: 14px;
             }
             .menu-items{
                 transition: all 0.3s;
@@ -143,11 +144,11 @@
             $this.find('.activated li').css('left', '40px');
             $this.find('.activated').css('height', menuHeight + 'px');
         };
-        $('#main-nav .radel-menu-btn').click(function () {
-            $('#main-nav').radelmenu();
+        $('.radel-menu-btn').click(function () {
+            $('.radelmenu').radelmenu();
         });
-        $('#main-nav .radel-menu-close-control').click(function () {
-            $('#main-nav').radelmenu();
+        $('.radel-menu-close-control').click(function () {
+            $('.radelmenu').radelmenu();
         });
     </script>
 </html>
