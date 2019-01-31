@@ -4,17 +4,11 @@
         <title>RADEL</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="assets/nav/css/reset.css">  
-        <link rel="stylesheet" href="assets/nav/css/style.css">
-        <script src="assets/nav/js/modernizr.js"></script>
-        <script src="assets/nav/js/main.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <style>
             .radelmenu{
+                font-family: 'Montserrat', sans-serif;
                 width: 48px;
                 position: fixed;
                 top: 20px;
@@ -31,20 +25,23 @@
                 padding-top: 25px;
             }
             .menu-items ul{
-                width: 150px;
+                width: 215px;
                 overflow: hidden;
+                list-style: none;
+                margin: 0;
+                padding: 0;
                 position: relative;
-                left: -100px;
-                text-align: right;
+                left: -165px;
             }
             .menu-items li{
                 transition: all 0.2s;
                 left: 200px;
-                height: 40px;
+                height: 25px;
                 padding: 10px;
                 position: relative;
                 cursor: pointer;
                 color: black;
+                text-align: right;
             }
             .menu-items li a{
                 color: black;
@@ -52,36 +49,40 @@
             .menu-items li a:hover{
                 transition: all 0s;
                 color: mediumturquoise;
-                left: -95px;
+                left: 50px;
             }
             .radel-menu-btn{
+                position: relative;
                 cursor: pointer;   
                 font-size: 20px;
                 background-color: aquamarine;
                 text-align: center;
-                width: 48px;
-                height: 48px;
+                width: 25px;
+                height: 25px;
                 padding: 12px;
                 border-radius: 50%;
                 z-index: 5;
             }
+            .nav-img{
+                width: 25px;
+            }
             .menu-link-img{
                 position: absolute;
-                left: 76px;
-                top: 10px;
+                left: 213px;
+                top: 5px;
             }
             .menu-title{
                 position: relative;
-                left: -90px;
+                left: -10px;
                 transition: all 0.2s;
             }
             .menu-title:hover{
                 position: relative;
-                left: -95px;
+                left: -20px;
             }
             .menu-link-img:hover ~ .menu-title{
                 position: relative;
-                left: -95px;
+                left: -20px;
             }
             .radel-menu-close-control{
                 width: 0;
@@ -90,7 +91,7 @@
                 position: fixed;
                 top: 0;
                 left: 0;
-            }
+            }            
             .radelmenu a{
                 text-decoration: none;
             }
@@ -98,17 +99,15 @@
     </head>
     <body>
         <div id="main-nav" class="radelmenu">
-            <span class="radel-menu-btn glyphicon glyphicon-menu-hamburger"></span>
+            <div class="radel-menu-btn"><img class="nav-img" src="assets/img/icons8-menu-500.png"></div>
             <div class="radel-menu-close-control"></div>
             <div class="menu-items">
                 <ul>
-                    <li><a href="#"><span class="menu-link-img glyphicon glyphicon-home"></span><span class="menu-title">Home</span></a></li>
-                    <li><a href="#"><span class="menu-link-img glyphicon glyphicon-leaf"></span><span class="menu-title">About</span></a></li>
-                    <li><a href="#"><span class="menu-link-img glyphicon glyphicon-paperclip"></span><span class="menu-title">Resources</span></a></li>
-                    <li><a href="#"><span class="menu-link-img glyphicon glyphicon-save"></span><span class="menu-title">Downloads</span></a></li>
-                    <li><a href="#"><span class="menu-link-img glyphicon glyphicon-earphone"></span><span class="menu-title">Contact</span></a></li>
-                    <li><a href="#"><span class="menu-link-img glyphicon glyphicon-star"></span><span class="menu-title">Star</span></a></li>
-                    <li><a href="#"><span class="menu-link-img glyphicon glyphicon-arrow-left"></span><span class="menu-title">Arrow</span></a></li>
+                    <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-start-menu-100.png"></span><span class="menu-title">Home</span></a></li>
+                    <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-company-filled-100.png"></span><span class="menu-title">About</span></a></li>
+                    <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-e-learning-100.png"></span><span class="menu-title">Resources</span></a></li>
+                    <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-download-from-cloud-100.png"></span><span class="menu-title">Downloads</span></a></li>
+                    <li><a href="#"><span class="menu-link-img"><img class="nav-img" src="assets/img/icons8-phone-100.png"></span><span class="menu-title">Contact</span></a></li>
                 </ul>
             </div>
         </div>
@@ -125,7 +124,7 @@
                 $this.find('.radel-menu-close-control').css('height', '0');
                 itemsCount++;
                 transitionDelay = transitionDelay - 0.02;
-                $(this).css('transition-delay', transitionDelay + 's')
+                $(this).css('transition-delay', transitionDelay + 's');
                 menuHeight = menuHeight + 40;
             });
             menuHeight = menuHeight + 30;
@@ -139,12 +138,12 @@
                 $this.find('.radel-menu-close-control').css('width', '100vw');
                 $this.find('.radel-menu-close-control').css('height', '100vh');
                 transitionDelay = transitionDelay + 0.02;
-                $(this).css('transition-delay', transitionDelay + 's')
+                $(this).css('transition-delay', transitionDelay + 's');
             });
 
             $this.find('.menu-items').css('height', '0px');
             $this.find('.menu-items li').css('left', '200px');
-            $this.find('.activated li').css('left', '40px');
+            $this.find('.activated li').css('left', '-35px');
             $this.find('.activated').css('height', menuHeight + 'px');
         };
         $('#main-nav .radel-menu-btn').click(function () {
