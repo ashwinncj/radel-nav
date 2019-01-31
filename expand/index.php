@@ -10,7 +10,7 @@
         <script src="assets/js/expand-right.js"></script>
     </head>
     <body>
-        <div id="main-nav" class="radelmenu">
+        <div class="radelmenu">
             <div class="radel-menu-btn"><img class="nav-img" src="assets/img/icons8-menu-500.png"></div>
             <div class="radel-menu-close-control"></div>
             <div class="menu-items">
